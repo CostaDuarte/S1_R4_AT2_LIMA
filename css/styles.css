@@ -59,14 +59,14 @@ header {
 
 /*!@note Configurações do main e cards */
 /** informações acima da grid*/
-.main {
+main {
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.info-catalogo {
+.hero-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -109,7 +109,7 @@ header {
 }
 
 /** Estrutura da grid*/
-.grid-itens {
+.hero-grid {
   width: 100%;
   justify-content: space-around;
   display: grid;
@@ -125,7 +125,7 @@ header {
   background-color: #fff;
 }
 
-/** Estrutura dos cards*/
+/** Estrutura dos cards*/ 
 .card-top {
   display: flex;
   justify-content: center;
