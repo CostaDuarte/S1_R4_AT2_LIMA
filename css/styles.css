@@ -201,7 +201,7 @@ card-bottom {
   color: #fff;
 }
 
-/*!@note Configurações do header */
+/*!@note Configurações do footer */
 footer {
   display: flex;
   flex-direction: column;
