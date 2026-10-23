@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f8f9ff;
+}
+
+/*!@note Configurações do header */
+header {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  margin-bottom: 2px;
+  align-items: center;
+  height: 60px;
+}
+
+.site-header {
+  width: 200px;
+  font-size: 10px;
+  padding: 30px;
+}
+
+.nav-buttons {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 15px;
+  color: #7c7c7d;
+}
+
+.user-buttons {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  gap: 10px;
+  left: 0px;
+}
+
+.fa-cart-shopping {
+  color: #131313;
+}
+
+.fa-circle-user {
+  color: #004ac6;
+}
+
+/*!@note Configurações do main e cards */
+/** informações acima da grid*/
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-catalogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.catalogo {
+  background-color: #e6efff;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  gap: 10px;
+  width: 110px;
+  height: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+}
+
+.fa-circle {
+  color: #2060eb;
+}
+
+.subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.subtitle-bold {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.subtitle-info {
+  font-size: 15px;
+  color: #7c7c7d;
+}
+
+/** Estrutura da grid*/
+.grid-itens {
+  width: 100%;
+  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 28%);
+  grid-template-rows: repeat(2, 600px);
+  margin-bottom: 80px;
+}
+
+.grid {
+  overflow: hidden;
+  border-radius: 20px;
+  margin-top: 30px;
+  background-color: #fff;
+}
+
+/** Estrutura dos cards*/
+.card-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  background-color: #eff4ff;
+}
+
+img {
+  height: 80%;
+  width: 75%;
+}
+
+card-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-produto {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  gap: 10px;
+  margin: 15px;
+}
+
+.classificacao {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #7c7c7d;
+}
+
+.nome-produto {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.desc-produto {
+  font-size: 15px;
+  color: #7c7c7d;
+}
+
+.preco-produto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin: 15px;
+  margin-top: 50px;
+}
+
+.preco-avista {
+  font-size: 13px;
+  color: #7c7c7d;
+}
+
+.preco {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ver-produto-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 15px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #2563eb;
+  color: #fff;
+}
+
+/*!@note Configurações do header */
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.blocos-footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bloco-direito {
+  margin-top: 20px;
+  width: 28%;
+  height: 70px;
+  background-color: #f8f9ff;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.direitos-reservados {
+  margin: 20px;
+  margin-top: 50px;
+  color: #7c7c7d;
+  font-size: 10px;
+}
+
+.direito-icon {
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e9fd;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  color: #4a74ec;
+}
+
+.direito-title {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.descricao-direito {
+  font-size: 12px;
+  color: #7c7c7d;
+}
